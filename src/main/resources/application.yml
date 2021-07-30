@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: EurekaClient
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    statusPageUrl: http://localhost:8080/info
